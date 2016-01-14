@@ -13,6 +13,7 @@ open (FILE2, "<text2.txt");
    last; 
    }
   }
+  
 close (FILE2);
 print "No match found for ===== $first_file \n" if ( $found == 0 );
  } 
